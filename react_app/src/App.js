@@ -3,6 +3,7 @@ import Background from './components/BackgroundMovie/Background';
 import Nav from './components/TopNavbar/Nav';
 import LargeCard from './components/Body/Cards';
 import Footer from './components/Footer/Footer';
+import ServicesList from './components/DescriptionServices/Services';
 
 function App() {
   return (
@@ -10,7 +11,9 @@ function App() {
       <Nav />
       <Background />
       <LargeCard />
+      <ServicesList />
       <Footer />
+      
     </>
   );
 }

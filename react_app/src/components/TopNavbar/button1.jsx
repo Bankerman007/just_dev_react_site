@@ -6,7 +6,7 @@ import {Button} from 'react-bootstrap'
 function Button1() {
     return (
     <div className="text-center">
-    <Button>Contact Us</Button>
+    <Button onClick={() => window.location = 'mailto:scottwright.qrf@gmail.com'}>Contact Us</Button>
     </div>
     );
   }
