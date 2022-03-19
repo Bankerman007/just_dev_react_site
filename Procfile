@@ -1,1 +1,1 @@
-web: gunicorn roster.wsgi
+web: gunicorn just_dev_site.wsgi
