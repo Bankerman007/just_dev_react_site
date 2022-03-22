@@ -129,8 +129,8 @@ TEMPLATE_DIRS = (os.path.join(BASE_DIR,'templates', 'static', 'staticfiles')),
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 
-#STATIC_URL = '/static/'
-#STATICFILES_DIRS = [os.path.join(BASE_DIR,'react_app/build/static'),]
+
+STATICFILES_DIRS = [os.path.join(BASE_DIR,'build/static'),]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
