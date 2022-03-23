@@ -14,7 +14,7 @@ export const ServicesStyled = styled.div`
     z-index:100;
     font-size: 20px;
     color: White;
-    @media (min-width: 768px) {
+    @media (max-width: 768px) {
         display: none;
     }
 `
