@@ -10,13 +10,11 @@ export const StyledNav = styled.nav`
     justify-content: right;
     align-items: center;
     font-size: 1px;
-    position: sticky;
+    position: fixed;
     top: 0;
     z-index: 1;
     padding: 15px;
-    @media: (max-width: 768px) {
-        float: right;
-    }
+    
     
 `
 export const StyledNavLogo = styled.nav`
