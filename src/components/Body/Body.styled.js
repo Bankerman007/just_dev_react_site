@@ -14,12 +14,18 @@ export const BodyStyled = styled.div`
     z-index:100;
     font-size: 30px;
     color: White;
+    @media (max-width: 768px) {
+        font-size:15px;
+    }
 `
 export const SmallText = styled.div`
     color: White;
     font-size: 20px;
     position: relative;
     z-index: 100;
+    @media (max-width: 768px) {
+        font-size:10px;
+    }
     
 
 `
