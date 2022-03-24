@@ -14,6 +14,9 @@ export const StyledNav = styled.nav`
     top: 0;
     z-index: 1;
     padding: 15px;
+    @media (max-width: 768px) {
+        height: 10;
+    }
     
     
 `
