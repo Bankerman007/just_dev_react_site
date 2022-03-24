@@ -15,7 +15,9 @@ export const StyledNav = styled.nav`
     z-index: 1;
     padding: 15px;
     @media: (max-width: 768px) {
-        text-align: right;
+        top : 0;
+        right : 0;
+        position: fixed;
     }
     
 `
