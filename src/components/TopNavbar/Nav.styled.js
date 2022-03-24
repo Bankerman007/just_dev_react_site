@@ -10,12 +10,13 @@ export const StyledNav = styled.nav`
     justify-content: right;
     align-items: center;
     font-size: 1px;
-    position: absolute;
+    position: relative;
     top: 0;
     z-index: 1;
     padding: 15px;
     @media (max-width: 768px) {
         height: 3px;
+        padding: 5px;
     }
     
     

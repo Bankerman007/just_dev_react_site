@@ -24,7 +24,7 @@ export const SmallText = styled.div`
     position: relative;
     z-index: 100;
     @media (max-width: 768px) {
-        font-size:10px;
+        font-size:12px;
     }
     
 

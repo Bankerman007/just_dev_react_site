@@ -23,4 +23,6 @@ export const FooterStyled = styled.div`
     font-size: 15px;
     color: White;
     line-height: .5;
+    @media (max-width: 768px) {
+        font-size: 10px
 `
